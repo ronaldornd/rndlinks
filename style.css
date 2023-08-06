@@ -30,7 +30,7 @@ body * {
 }
 #container {
   width: 100%;
-  max-width:580px;
+  max-width: 580px;
   margin: 56px auto 10px;
   padding: 0 24px;
   display: flex;
@@ -129,4 +129,13 @@ h2 {
 }
 #social-icons a:hover {
   background-color: var(--bg-color-hover);
+}
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
