@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 fazendo testes em aula de git
 branch main
+=======
+branch nova
+>>>>>>> 320d1c41eb2970d55ba35fb910b763f300b8e8ad
